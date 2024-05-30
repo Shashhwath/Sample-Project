@@ -1,0 +1,102 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loginPage
+{
+  background-image: url("background.png");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dashboard
+{
+  background-image: url("dashboard.png");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile
+{
+  margin: 100px;
+  display:flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.image
+{
+  height:500px;
+  width:1000px;
+  background-image: url("front-end.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact
+{
+  margin-top: 0px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  background-image: url("contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-container {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgb(249, 255, 249)
+}
+
+.contact-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-item i {
+  font-size: 24px;
+  color: #555;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+
